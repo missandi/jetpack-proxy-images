@@ -38,10 +38,13 @@ export default {
 
     return new Response(response.body, {
       headers: {
-        'content-type': 'image/webp',
-        'last-modified': response.headers.get('last-modified'),        
-        'link': response.headers.get('link'),
-        'X-Cache': response.headers.get('x-nc'),
+        'Content-Type': 'image/webp',
+        'Cache-Control': response.headers.get('Cache-Control'),
+        'ETag': response.headers.get('ETag'),
+        'X-Content-Type-Options': 'nosniff',
+        'Link': response.headers.get('Link'),
+        'Last-Modified': response.headers.get('Last-Modified'),
+        'X-Cache': response.headers.get('X-nc'),
         'X-Served-By': `Cloudflare Pages & ${config.service}`
       }
     });
