@@ -1,1 +1,1 @@
-# jtepack-proxy-images
+# jetpack-proxy-images
