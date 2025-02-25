@@ -1,1 +1,2 @@
-# jetpack-proxy-images
+# Phiên bản Reverse Proxy cho Jetpack
+
