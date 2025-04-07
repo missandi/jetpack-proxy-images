@@ -11,7 +11,7 @@ const rules = {
   },
   '/': {
     targetHost: 'i0.wp.com',
-    pathTransform: (path) => '/bibica.net/wp-content/uploads' + path,
+    pathTransform: (path) => '/etsywarrior.missandi.click/wp-content/uploads' + path,
     service: 'Jetpack'
   }
 };
