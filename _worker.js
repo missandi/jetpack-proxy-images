@@ -4,11 +4,13 @@ const rules = {
     pathTransform: (path, prefix) => '/avatar' + path.replace(prefix, ''),
     service: 'Gravatar'
   },
+  /*
   '/comment': {
     targetHost: 'i0.wp.com',
     pathTransform: (path, prefix) => '/comment.bibica.net/static/images' + path.replace(prefix, ''),
     service: 'Artalk & Jetpack'
   },
+  */
   '/': {
     targetHost: 'i0.wp.com',
     pathTransform: (path) => '/etsywarrior.missandi.click/wp-content/uploads' + path,
